@@ -3,6 +3,7 @@
 The MIT License (MIT)
 
 Copyright (c) 2025 Raattis
+
 Copyright (c) 2014 Leonid Shagabutdinov
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
