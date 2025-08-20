@@ -13,9 +13,9 @@ Clone to `sublime-text/Packages/SelectNext`.
 1. Select text forward
 2. Select text backward
 3. Select word forward
-4. Select word forward
+4. Select word backward
 5. Undo the latest selection
-6. Clear all selections so that the latest selection remains
+6. Clear all selections so that the latest selection becomes the remaining cursor
 
 
 ### Usage
@@ -27,12 +27,12 @@ Select a text or position cursor on top of word that should be selected several 
 
 | Description          | Keyboard shortcuts | Command palette             |
 |----------------------|--------------------|-----------------------------|
-| Select next          | ctrl+shift+down    | SelectNext: next match      |
-| Select previous      | ctrl+shift+up      | SelectNext: previous match  |
-| Select next word     | ctrl+alt+down      | SelectNext: next word       |
-| Select previous word | ctrl+alt+shift+up  | SelectNext: previous word   |
-| Undo selection       | ctrl+alt+shift+z   | SelectNext: undo latest     |
-| Clear selection      | escape             | SelectNext: clear selection |
+| Select next          | ctrl+shift+down    | SelectNext: Next match      |
+| Select previous      | ctrl+shift+up      | SelectNext: Previous match  |
+| Select next word     | ctrl+alt+c         | SelectNext: Next word       |
+| Select previous word | ctrl+alt+shift+c   | SelectNext: Previous word   |
+| Undo selection       | ctrl+alt+shift+z   | SelectNext: Undo latest     |
+| Clear selection      | escape             | SelectNext: Clear selection |
 
 
 ### Dependencies
