@@ -1,0 +1,47 @@
+[
+  {
+    "caption": "SelectNext: Next match",
+    "command": "select_next",
+  },
+
+  {
+    "caption": "SelectNext: Previous match",
+    "command": "select_next",
+    "args": {
+      "backward": true,
+    }
+  },
+
+  {
+    "caption": "SelectNext: Next word",
+    "command": "select_next",
+    "args": {
+      "word": true,
+    }
+  },
+
+  {
+    "caption": "SelectNext: Previous word",
+    "command": "select_next",
+    "args": {
+      "word": true,
+      "backward": true,
+    }
+  },
+
+  {
+    "caption": "SelectNext: Undo last",
+    "command": "select_next",
+    "args": {
+      "undo_last_selection": true,
+    }
+  },
+
+  {
+    "caption": "SelectNext: Clear selections",
+    "command": "select_next",
+    "args": {
+      "clear_selections": true
+    }
+  },
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "keys": ["ctrl+shift+down"],
+    "command": "select_next",
+  },
+
+  {
+    "keys": ["ctrl+shift+up"],
+    "command": "select_next",
+    "args": {
+      "backward": true,
+    },
+  },
+
+  {
+    "keys": ["ctrl+alt+c"],
+    "command": "select_next",
+    "args": {
+      "word": true,
+    },
+  },
+
+  {
+    "keys": ["ctrl+alt+shift+c"],
+    "command": "select_next",
+    "args": {
+      "word": true,
+      "backward": true,
+    },
+  },
+
+  {
+    "keys": ["ctrl+alt+shift+z"],
+    "command": "select_next",
+    "args": {
+      "undo_last_selection": true,
+    },
+  },
+
+  {
+    "keys": ["escape"],
+    "command": "select_next",
+    "args": {
+      "clear_selections": true
+    },
+    "context": [
+      {"key": "num_selections", "operator": "not_equal", "operand": 1},
+    ]
+  },
+
+]
