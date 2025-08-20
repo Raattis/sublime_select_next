@@ -1,6 +1,6 @@
 # Sublime SelectNext plugin
 
-Fork of [AppendSelection](https://github.com/shagabutdinov/sublime-append-selection.git) sublime plugin. I made it more closely imitate the behavior of a visual studio extension I'm used to.
+Based on [AppendSelection](https://github.com/shagabutdinov/sublime-append-selection.git) sublime plugin. I made it more closely imitate the behavior of a visual studio extension I'm used to.
 
 
 ### Installation
