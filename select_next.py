@@ -147,9 +147,9 @@ class SelectNextListener(sublime_plugin.EventListener):
 
     sels = view.sel()
     for sel in sels:
-      if sel.a  != sel.b and not sel in added_selections:
+      if (not sel.empty() or len(sels) > 1) and not sel in added_selections:
         trace("missing sel added:", sel)
-        added_selections.append(sel)
+        added_selections.insert(0, sel)
 
     for i in range(len(added_selections) - 1, -1, -1):
       sel = added_selections[i]
