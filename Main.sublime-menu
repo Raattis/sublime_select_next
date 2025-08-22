@@ -18,19 +18,13 @@
                         [
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/SelectNext/README.md"},
+                                "args": {"file": "${packages}/SelectNext/readme.md"},
                                 "caption": "README"
                             },
-                            { "caption": "-" },
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/SelectNext/SelectNext.sublime-settings"},
-                                "caption": "Settings – Default"
-                            },
-                            {
-                                "command": "open_file",
-                                "args": {"file": "${packages}/User/SelectNext.sublime-settings"},
-                                "caption": "Settings – User"
+                                "args": {"file": "${packages}/SelectNext/select_next.py"},
+                                "caption": "Source"
                             },
                             { "caption": "-" },
                             {

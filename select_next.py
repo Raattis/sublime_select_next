@@ -6,7 +6,7 @@ selection_added = False
 added_selections = []
 
 def trace(*args, **kwargs):
-  print(*args, **kwargs)
+  #print(*args, **kwargs)
   pass
 
 class SelectNext(sublime_plugin.TextCommand):
@@ -157,6 +157,7 @@ class SelectNextListener(sublime_plugin.EventListener):
         trace("false sel removed:", sel)
         del added_selections[i]
 
-    trace("handler - added_selections:", added_selections, ", view:", view)
+    if len(added_selections) > 0:
+      trace("handler - added_selections:", added_selections, ", view:", view)
 
     view.erase_regions('select_next')

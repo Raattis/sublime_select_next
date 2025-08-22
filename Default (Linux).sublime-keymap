@@ -48,6 +48,7 @@
       //{ "key": "selector", "operator": "not_equal", "operand": "text.plain" },
       { "key": "auto_complete_visible", "operator": "not_equal" },
       { "key": "selection_empty", "operator": "not_equal" },
+      { "key": "popup_visible", "operator": "equal", "operand": false },
     ]
   },
 
@@ -57,6 +58,7 @@
     "context": [
       { "key": "auto_complete_visible", "operator": "not_equal" },
       { "key": "num_selections", "operator": "not_equal", "operand":1 },
+      { "key": "popup_visible", "operator": "equal", "operand": false },
     ]
   },
 
